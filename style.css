@@ -11,6 +11,7 @@ h2 {
 
 header {
   height: 75px;
+  width: 900px;
 }
 
 header ul {
@@ -20,6 +21,24 @@ header ul li {
   display: inline-block;
 }
 
+main {
+  width: 900px;
+}
+
+#icons {
+  float: right;
+}
+
 #instructions p {
-  text-indent: 10mm;
+  font-size: 19px;
+  text-indent: 7mm;
+  margin: 15px;
+}
+
+#title div{
+  float: right;
+}
+
+#title div p {
+  float: right;
 }
