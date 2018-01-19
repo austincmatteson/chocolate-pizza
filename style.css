@@ -42,3 +42,7 @@ main {
 #title div p {
   float: right;
 }
+
+#ingredients ul {
+  display: inline-block;
+}
