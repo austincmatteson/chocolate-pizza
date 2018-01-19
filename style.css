@@ -12,6 +12,9 @@ h2 {
 header {
   height: 75px;
   width: 900px;
+  border-bottom: 5px;
+  border-style: dashed;
+  border-bottom-color: grey;
 }
 
 header ul {
@@ -43,6 +46,35 @@ main {
   float: right;
 }
 
+#ingredients {
+  position: relative;
+}
+
 #ingredients ul {
   display: inline-block;
+}
+
+#one {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  font-size: 20px;
+  list-style-type: square;
+  font-family: sans-serif;
+  line-height: 31px;
+}
+
+#two {
+  position: absolute;
+  top: 40px;
+  right: 70px;
+  font-size: 20px;
+  list-style-type: square;
+  font-family: sans-serif;
+  line-height: 31px;
+}
+
+footer {
+  width: 900px;
+  height: 75px;
 }
