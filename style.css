@@ -50,6 +50,7 @@ main {
 
 #title div p {
   float: right;
+  padding-bottom: 15px;
 }
 
 #ingredients {
