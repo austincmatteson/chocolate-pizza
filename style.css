@@ -74,6 +74,29 @@ main {
   line-height: 31px;
 }
 
+h3 {
+  font-size: 30px;
+  font-style: bold;
+  font-family: Times;
+}
+
+#bio {
+  position: relative;
+}
+
+#bio ul li{
+  display: inline-block;
+}
+
+#bio button {
+  position: absolute;
+  right: 0px;
+  top: 25%;
+  background-color: tan;
+  font-family: Georgia;
+  padding: 25px;
+}
+
 footer {
   width: 900px;
   height: 75px;
