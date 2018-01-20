@@ -1,0 +1,122 @@
+h1 {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+h2 {
+  font-size: 40px;
+  font-style: bold;
+  font-family: Verdana;
+}
+
+header {
+  height: 75px;
+  width: 900px;
+  border-bottom: 5px;
+  border-style: dashed;
+  border-bottom-color: grey;
+  margin-bottom: 50px;
+}
+
+header ul {
+  display: inline-block;
+}
+header ul li {
+  display: inline-block;
+}
+
+main {
+  width: 900px;
+}
+
+#icons {
+  float: right;
+}
+
+#instructions p {
+  font-size: 19px;
+  text-indent: 7mm;
+  margin: 15px;
+}
+
+#title div{
+  float: right;
+}
+
+#title div p {
+  float: right;
+}
+
+#ingredients {
+  position: relative;
+}
+
+#ingredients ul {
+  display: inline-block;
+}
+
+#one {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  font-size: 20px;
+  list-style-type: square;
+  font-family: sans-serif;
+  line-height: 31px;
+}
+
+#two {
+  position: absolute;
+  top: 40px;
+  right: 70px;
+  font-size: 20px;
+  list-style-type: square;
+  font-family: sans-serif;
+  line-height: 31px;
+}
+
+#bio {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+#bio h3 {
+  font-size: 30px;
+  font-style: bold;
+  font-family: Times;
+  position: absolute;
+  top: 5px;
+}
+
+#bio p {
+  font-size: 15px;
+  width: 500px;
+  top: 50px;
+  font-family: Times;
+  position: absolute;
+}
+
+#bio ul li{
+  display: inline-block;
+}
+
+#bio button {
+  position: absolute;
+  right: 0px;
+  top: 25%;
+  background-color: tan;
+  font-family: Georgia;
+  padding: 25px;
+}
+
+footer {
+  width: 900px;
+  height: 75px;
+  text-align: center;
+  border-top: 5px;
+  border-top-color: black;
+  border-style: dotted;
+}
+footer img {
+  margin-top: -20px;
+}
