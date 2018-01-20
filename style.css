@@ -49,6 +49,7 @@ main {
 
 #ingredients {
   position: relative;
+  margin-bottom: 20px;
 }
 
 #ingredients ul {
@@ -78,6 +79,10 @@ main {
 #bio {
   position: relative;
   margin-bottom: 100px;
+  border-top: 5px;
+  border-top-color: grey;
+  border-style: dashed;
+  padding-top: 15px;
 }
 
 #bio h3 {
@@ -85,7 +90,7 @@ main {
   font-style: bold;
   font-family: Times;
   position: absolute;
-  top: 5px;
+  top: 10px;
 }
 
 #bio p {
